@@ -1,0 +1,23 @@
+{
+  "properties": {
+    "incomeType": {
+      "enum": [
+        "Employment",
+        "Passive"
+      ]
+    },
+    "employmentType": {
+      "enum": [
+        "Salaried",
+        "Hourly",
+        "Contract"
+      ]
+    },
+    "amount": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    }
+  }
+}

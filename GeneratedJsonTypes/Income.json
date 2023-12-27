@@ -1,0 +1,51 @@
+{
+  "discriminator": "incomeType",
+  "mapping": {
+    "EmploymentIncome": {
+      "properties": {
+        "incomeType": {
+          "enum": [
+            "Employment",
+            "Passive"
+          ]
+        },
+        "employmentType": {
+          "enum": [
+            "Salaried",
+            "Hourly",
+            "Contract"
+          ]
+        },
+        "amount": {
+          "type": "string"
+        },
+        "source": {
+          "type": "string"
+        }
+      }
+    },
+    "PassiveIncome": {
+      "properties": {
+        "passiveIncomeType": {
+          "enum": [
+            "Investment",
+            "Rental",
+            "Royalties"
+          ]
+        },
+        "incomeType": {
+          "enum": [
+            "Employment",
+            "Passive"
+          ]
+        },
+        "amount": {
+          "type": "string"
+        },
+        "source": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

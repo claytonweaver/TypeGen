@@ -1,0 +1,18 @@
+{
+  "properties": {
+    "results": {
+      "elements": {
+        "metadata": {
+          "rustType": "Planet"
+        },
+        "type": "string"
+      }
+    },
+    "count": {
+      "type": "int32"
+    },
+    "next": {
+      "type": "string"
+    }
+  }
+}

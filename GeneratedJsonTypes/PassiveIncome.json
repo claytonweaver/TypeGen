@@ -1,0 +1,23 @@
+{
+  "properties": {
+    "passiveIncomeType": {
+      "enum": [
+        "Investment",
+        "Rental",
+        "Royalties"
+      ]
+    },
+    "incomeType": {
+      "enum": [
+        "Employment",
+        "Passive"
+      ]
+    },
+    "amount": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    }
+  }
+}
